@@ -113,7 +113,7 @@ namespace AIStudioWindowsLauncher
             try
             {
                 // Look for common Python entry points
-                string[] possibleFiles = { "main.py", "app.py", "run.py", "__main__.py" };
+                string[] possibleFiles = { "ai_studio.py", "main.py", "app.py", "run.py", "__main__.py" };
                 string pythonScript = null;
                 
                 foreach (var file in possibleFiles)

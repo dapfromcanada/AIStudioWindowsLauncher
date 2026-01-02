@@ -50,6 +50,16 @@
       "frameworks": {
         "net10.0-windows7.0": {
           "targetAlias": "net10.0-windows",
+          "dependencies": {
+            "ScottPlot.WinForms": {
+              "target": "Package",
+              "version": "[5.1.57, )"
+            },
+            "System.Management": {
+              "target": "Package",
+              "version": "[10.0.1, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
